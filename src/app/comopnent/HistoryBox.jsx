@@ -4,7 +4,7 @@ export default function HistoryBox({ object }) {
   let len = object.length - 4;
 
   return (
-    <div className='flex mx-3 justify-start'>
+    <div className='flex mx-3 justify-center'>
       {object && object.length !== 0 && object.map((s, id) => {
         if (len < id) {
           return (
